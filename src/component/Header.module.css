@@ -1,0 +1,36 @@
+.headContainer {
+  display: flex; /* Aligns items in a row */
+  justify-content: space-between; /* Spaces elements evenly */
+  align-items: center; /* Centers items vertically */
+  background-color: #222; /* Dark background for contrast */
+  color: white; /* White text for better visibility */
+  padding: 10px 20px; /* Adds padding around the container */
+}
+
+.headContainer img {
+  height: 50px; /* Sets a fixed height for the logo */
+  width: auto; /* Maintains aspect ratio */
+}
+
+.navbar {
+  display: flex; /* Ensures the navigation stays in a row */
+}
+
+.navbar1 {
+  list-style: none; /* Removes default list styling */
+  display: flex; /* Aligns list items in a row */
+  gap: 20px; /* Adds spacing between navigation items */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.navList1 {
+  font-size: 16px; /* Sets font size for nav items */
+  font-weight: bold; /* Makes text bold */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navList1:hover {
+  color: #f0a500; /* Changes color on hover for better UX */
+}

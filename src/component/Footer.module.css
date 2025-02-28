@@ -1,0 +1,56 @@
+.footer {
+  background-color: #222; /* Dark background for contrast */
+  color: white; /* White text for readability */
+  padding: 20px 0; /* Vertical padding for spacing */
+  text-align: center; /* Center align text */
+}
+
+.footerContent {
+  max-width: 1200px; /* Limits the width of the content */
+  margin: 0 auto; /* Centers the footer content horizontally */
+  padding: 0 20px; /* Adds some padding inside the content */
+}
+
+.footerLinks {
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Aligns items in a row */
+  justify-content: center; /* Centers links horizontally */
+  gap: 20px; /* Adds space between links */
+}
+
+.footerLinks li {
+  display: inline; /* Ensures list items are inline */
+}
+
+.footerLinks a {
+  text-decoration: none; /* Removes the default underline */
+  color: white; /* White text for better contrast */
+  font-weight: bold; /* Makes text bold */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.footerLinks a:hover {
+  color: #f0a500; /* Changes color on hover */
+}
+
+.socialMedia {
+  margin-top: 15px; /* Adds spacing between links and social icons */
+}
+
+.socialMedia a {
+  margin: 0 10px; /* Adds spacing between social media links */
+  text-decoration: none; /* Removes underline */
+  color: white; /* White color for social links */
+  font-size: 18px; /* Makes text larger */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.socialMedia a:hover {
+  color: #f0a500; /* Color change on hover for social links */
+}
+
+p {
+  margin-top: 15px; /* Adds spacing above the copyright text */
+  font-size: 14px; /* Sets a smaller font size */
+}
